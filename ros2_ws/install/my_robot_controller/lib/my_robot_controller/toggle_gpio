@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'my-robot-controller==0.0.0','console_scripts','test_node'
+# EASY-INSTALL-ENTRY-SCRIPT: 'my-robot-controller==0.0.0','console_scripts','toggle_gpio'
 import re
 import sys
 
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('my-robot-controller==0.0.0', 'console_scripts', 'test_node')())
+    sys.exit(load_entry_point('my-robot-controller==0.0.0', 'console_scripts', 'toggle_gpio')())
