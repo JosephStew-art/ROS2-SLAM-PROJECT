@@ -1,2 +1,2 @@
-1.  Clone repo to root directory
-2.  
+1.  Install ROS2 Humble to Pi
+2.  Clone repo to root directory
