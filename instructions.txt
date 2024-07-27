@@ -1,0 +1,2 @@
+1.  Clone repo to root directory
+2.  
