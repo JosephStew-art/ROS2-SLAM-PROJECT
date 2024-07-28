@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.001660] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.002568] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.099063] (-) TimerEvent: {}
+[0.199773] (-) TimerEvent: {}
+[0.300663] (-) TimerEvent: {}
+[0.401647] (-) TimerEvent: {}
+[0.502345] (-) TimerEvent: {}
+[0.603027] (-) TimerEvent: {}
+[0.703713] (-) TimerEvent: {}
+[0.804355] (-) TimerEvent: {}
+[0.905043] (-) TimerEvent: {}
+[1.006534] (-) TimerEvent: {}
+[1.107258] (-) TimerEvent: {}
+[1.208048] (-) TimerEvent: {}
+[1.309050] (-) TimerEvent: {}
+[1.410272] (-) TimerEvent: {}
+[1.510953] (-) TimerEvent: {}
+[1.611685] (-) TimerEvent: {}
+[1.712391] (-) TimerEvent: {}
+[1.813094] (-) TimerEvent: {}
+[1.913781] (-) TimerEvent: {}
+[2.014621] (-) TimerEvent: {}
+[2.115354] (-) TimerEvent: {}
+[2.216064] (-) TimerEvent: {}
+[2.316750] (-) TimerEvent: {}
+[2.417462] (-) TimerEvent: {}
+[2.518137] (-) TimerEvent: {}
+[2.618846] (-) TimerEvent: {}
+[2.719773] (-) TimerEvent: {}
+[2.821085] (-) TimerEvent: {}
+[2.833545] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.68.63 52550 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ROS2-SLAM-PROJECT', 'TERM_PROGRAM_VERSION': '1.91.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-df54d0db-aba7-461d-9179-c59b48dc92b7.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.68.63 52550 192.168.68.57 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.921288] (-) TimerEvent: {}
+[3.022001] (-) TimerEvent: {}
+[3.122823] (-) TimerEvent: {}
+[3.223628] (-) TimerEvent: {}
+[3.324409] (-) TimerEvent: {}
+[3.425075] (-) TimerEvent: {}
+[3.525827] (-) TimerEvent: {}
+[3.626581] (-) TimerEvent: {}
+[3.727246] (-) TimerEvent: {}
+[3.827912] (-) TimerEvent: {}
+[3.915827] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.918705] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[3.919840] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[3.920729] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[3.921463] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[3.922054] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[3.928071] (-) TimerEvent: {}
+[3.930789] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[3.934941] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[3.935672] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[3.936227] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.937157] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/toggle_gpio.py -> /home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[3.938669] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[3.939910] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.944105] (my_robot_controller) StdoutLine: {'line': b'copying /home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/toggle_gpio.py -> /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[3.947212] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/toggle_gpio.py to toggle_gpio.cpython-310.pyc\n'}
+[3.951455] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[3.952203] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.959303] (my_robot_controller) StdoutLine: {'line': b"removing '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.961048] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[3.967086] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[4.028283] (-) TimerEvent: {}
+[4.046355] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.047270] (my_robot_controller) StdoutLine: {'line': b'Installing toggle_gpio script to /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.048952] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/install.log'\n"}
+[4.128633] (-) TimerEvent: {}
+[4.169932] (my_robot_controller) CommandEnded: {'returncode': 0}
+[4.220333] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[4.223670] (-) EventReactorShutdown: {}

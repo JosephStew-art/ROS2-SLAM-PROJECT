@@ -1,0 +1,25 @@
+[2.858s] Invoking command in '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/build install --record /home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[4.056s] running egg_info
+[4.059s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[4.060s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[4.061s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[4.062s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[4.063s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[4.071s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[4.075s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[4.076s] running build
+[4.076s] running build_py
+[4.077s] copying my_robot_controller/toggle_gpio.py -> /home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[4.079s] running install
+[4.080s] running install_lib
+[4.084s] copying /home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/toggle_gpio.py -> /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.088s] byte-compiling /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/toggle_gpio.py to toggle_gpio.cpython-310.pyc
+[4.092s] running install_data
+[4.092s] running install_egg_info
+[4.099s] removing '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[4.101s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[4.107s] running install_scripts
+[4.187s] Installing test_node script to /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.188s] Installing toggle_gpio script to /home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.190s] writing list of installed files to '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/install.log'
+[4.314s] Invoked command in '/home/pi/ROS2-SLAM-PROJECT/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ROS2-SLAM-PROJECT/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/build install --record /home/pi/ROS2-SLAM-PROJECT/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
