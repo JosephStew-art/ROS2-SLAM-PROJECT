@@ -1,48 +1,51 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+from time import sleep
 import RPi.GPIO as GPIO
-import time
 
 class GPIOToggleNode(Node):
     def __init__(self):
         super().__init__('gpio_toggle_node')
-        self.get_logger().info('GPIO Toggle Node has started.')
         
-        # Set the GPIO mode
+        # GPIO pin setup
+        self.gpio_pins_1 = [17, 27]
+        self.gpio_pins_2 = [5, 6]
+        
         GPIO.setmode(GPIO.BCM)
+        GPIO.setwarnings(False)
         
-        # Define GPIO pins
-        self.pin1 = 17  # GPIO17 (Pin 11)
-        self.pin2 = 27  # GPIO27 (Pin 13)
-        self.pin3 = 5   # GPIO5 (Pin 29)
-        self.pin4 = 6   # GPIO6 (Pin 31)
-        
-        # Set pins as output
-        GPIO.setup(self.pin1, GPIO.OUT)
-        GPIO.setup(self.pin2, GPIO.OUT)
-        GPIO.setup(self.pin3, GPIO.OUT)
-        GPIO.setup(self.pin4, GPIO.OUT)
-        
-        # Start the timer to toggle GPIO pins every 2 seconds
-        self.timer = self.create_timer(2.0, self.toggle_pins)
-        
-        # Initial state
+        for pin in self.gpio_pins_1 + self.gpio_pins_2:
+            GPIO.setup(pin, GPIO.OUT)
+
         self.state = False
 
-    def toggle_pins(self):
+        # Set initial state
+        self.set_gpio_state(self.state)
+
+        # Create a timer to toggle the GPIO pins
+        self.timer = self.create_timer(2.0, self.toggle_gpio)
+
+    def set_gpio_state(self, state):
+        if state:
+            GPIO.output(self.gpio_pins_1, GPIO.HIGH)
+            GPIO.output(self.gpio_pins_2, GPIO.LOW)
+        else:
+            GPIO.output(self.gpio_pins_1, GPIO.LOW)
+            GPIO.output(self.gpio_pins_2, GPIO.HIGH)
+
+    def toggle_gpio(self):
+        # Set both sets of GPIO pins to LOW for 1 second
+        GPIO.output(self.gpio_pins_1, GPIO.LOW)
+        GPIO.output(self.gpio_pins_2, GPIO.LOW)
+        sleep(1)
+
+        # Toggle state
         self.state = not self.state
-        # Toggle the state of pin1 and pin2
-        GPIO.output(self.pin1, self.state)
-        GPIO.output(self.pin2, self.state)
-        
-        # Set pin3 and pin4 to the opposite state of pin1 and pin2
-        GPIO.output(self.pin3, not self.state)
-        GPIO.output(self.pin4, not self.state)
-        
-        state_str = 'HIGH' if self.state else 'LOW'
-        self.get_logger().info(f'GPIO17 and GPIO27 set to {state_str}')
-        self.get_logger().info(f'GPIO5 and GPIO6 set to {"LOW" if self.state else "HIGH"}')
+
+        # Set GPIO pins based on the new state
+        self.set_gpio_state(self.state)
+        self.get_logger().info(f'State: {"HIGH" if self.state else "LOW"}')
 
 def main(args=None):
     rclpy.init(args=args)
