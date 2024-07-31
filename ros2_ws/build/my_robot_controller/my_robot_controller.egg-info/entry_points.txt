@@ -1,3 +1,4 @@
 [console_scripts]
+motor_control_node = my_robot_controller.motor_control:main
 velocity_computation_node = my_robot_controller.velocity_computation:main
 
