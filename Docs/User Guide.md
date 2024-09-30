@@ -49,8 +49,7 @@ sudo apt install ros-humble-desktop
 ```markdown
 sudo apt install ros-dev-tools
 ```
-
-
-
-
-
+4. Edit the .bashrc file in the route directory and add the following line at the bottom
+```markdown
+source /opt/ros/humble/setup.bash
+```
