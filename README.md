@@ -6,9 +6,6 @@ Converting a differential drive robot to ROS 2 and implementing SLAM with as few
   <img src="https://github.com/user-attachments/assets/ffbd1a9c-8ed7-4ff4-92c9-08b66369995b" alt="Robot Base Side View" style="width: 49%;">
 </div>
 
-![Base_2024-Sep-30_10-16-08AM-000_CustomizedView10040484037](https://github.com/user-attachments/assets/26666ae7-dfb7-417f-a60e-602a96935341)
-![Base_2024-Sep-30_10-14-45AM-000_CustomizedView3557780434](https://github.com/user-attachments/assets/ffbd1a9c-8ed7-4ff4-92c9-08b66369995b)
-
 
 ## Requirements
 - Raspberry Pi 4 B or similar running Ubuntu Server 22.04
