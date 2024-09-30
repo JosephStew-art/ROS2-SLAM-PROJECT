@@ -14,14 +14,33 @@ The installation section of the user guide has been seperated into three subsect
 9. Flash the SD card
 ### ROS 2 installation
 1. Set locale
-  ```markdown
-  locale  # check for UTF-8
-  
-  sudo apt update && sudo apt install locales
-  sudo locale-gen en_US en_US.UTF-8
-  sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-  export LANG=en_US.UTF-8
-  
-  locale  # verify settings
-  ```
+```markdown
+locale  # check for UTF-8
+
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+```
 2. Setup sources
+- Ensure Ubuntu Universe repo is enabled
+```markdown
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+```
+- Add the ROS 2 GPG key using apt
+```markdown
+sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+```
+- Add the repo to the sources list
+```markdown
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+```
+
+
+
+
+
