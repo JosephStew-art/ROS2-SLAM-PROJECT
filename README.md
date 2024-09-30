@@ -29,6 +29,9 @@ Converting a differential drive robot to ROS 2 and implementing SLAM with as few
 - 32GB SD card
 - SD card reader
 
+## User Manual
+For a detailed installation and usage guide consult [User Guide](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Manual.md).
+
 ### Raspberry Pi Software Installation
 1. Download the Raspberry Pi Imager [Raspberry Pi Software](https://www.raspberrypi.com/software/)
 2. Insert the SD card into the SD card reader and plug it into the laptop
