@@ -30,4 +30,4 @@ Converting a differential drive robot to ROS 2 and implementing SLAM with as few
 - SD card reader
 
 ## User Manual
-For a detailed installation and usage guide consult [User Guide](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md).
+For a detailed installation and usage guide consult the [User Guide](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md).
