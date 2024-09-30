@@ -25,17 +25,17 @@ export LANG=en_US.UTF-8
 locale  # verify settings
 ```
 2. Setup sources
-- Ensure Ubuntu Universe repo is enabled
+Ensure Ubuntu Universe repo is enabled
 ```markdown
 sudo apt install software-properties-common
 sudo add-apt-repository universe
 ```
-- Add the ROS 2 GPG key using apt
+Add the ROS 2 GPG key using apt
 ```markdown
 sudo apt update && sudo apt install curl -y
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
-- Add the repo to the sources list
+Add the repo to the sources list
 ```markdown
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
