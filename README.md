@@ -26,3 +26,4 @@ Converting a differential drive robot to ROS 2 and implementing SLAM with as few
 The installation is going to be split into three sections. It will start with the installation of all the software requirements for the Raspberry Pi, then it will move onto the software installation/s for the laptop base station and then thirdly it will detail the instructions for setting up the robot and integrating all the parts as well as runnign the robot.
 
 ### Raspberry Pi Software Installation
+1. Download the Raspberry Pi Imager [Raspberry Pi Software](https://www.raspberrypi.com/software/)
