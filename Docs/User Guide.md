@@ -13,3 +13,16 @@ The installation section of the user guide has been seperated into three subsect
 8. Ensure a WiFi networks is configured as well as a user and password
 9. Flash the SD card
 ### ROS 2 installation
+1. Set locale
+```markdown
+```bash
+locale  # check for UTF-8
+
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+```
+2. sss
