@@ -21,9 +21,14 @@ Converting a differential drive robot to ROS 2 and implementing SLAM with as few
 - 5V 6S UBEC
 - USB-A to USB-C (if required for webcam)
 - 32GB SD card
+- SD card reader
 
 ## Installation
 The installation is going to be split into three sections. It will start with the installation of all the software requirements for the Raspberry Pi, then it will move onto the software installation/s for the laptop base station and then thirdly it will detail the instructions for setting up the robot and integrating all the parts as well as runnign the robot.
 
 ### Raspberry Pi Software Installation
 1. Download the Raspberry Pi Imager [Raspberry Pi Software](https://www.raspberrypi.com/software/)
+2. Insert the SD card into the SD card reader and plug it into the laptop
+3. Open Raspbbery Pi Imager
+4. Select the Pi you have (8GB RPi 4 Model B is recommended)
+5. Select Ubuntu Server 22.04 for the OS in the 
