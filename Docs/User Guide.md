@@ -25,8 +25,6 @@ export LANG=en_US.UTF-8
 locale  # verify settings
 ```
 2. Setup sources\
-\
-Ensure Ubuntu Universe repo is enabled
 ```markdown
 sudo apt install software-properties-common
 sudo add-apt-repository universe
