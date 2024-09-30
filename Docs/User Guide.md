@@ -15,7 +15,6 @@ The installation section of the user guide has been seperated into three subsect
 ### ROS 2 installation
 1. Set locale
 ```markdown
-```bash
 locale  # check for UTF-8
 
 sudo apt update && sudo apt install locales
