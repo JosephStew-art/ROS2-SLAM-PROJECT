@@ -2,8 +2,9 @@
 Converting a differential drive robot to ROS 2 and implementing SLAM with as few sensors as possible.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/ffbd1a9c-8ed7-4ff4-92c9-08b66369995b" alt="Robot Base Side View" style="width: 65%;">
+  <img src="https://github.com/user-attachments/assets/6b342271-c00d-44c1-9199-cb3514be17ed" alt="Robot Base Side View" style="width: 65%;">
 </div>
+
 
 ## Dependencies
 - ORB-SLAM3
