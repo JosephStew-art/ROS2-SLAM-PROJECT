@@ -57,5 +57,5 @@ source /opt/ros/humble/setup.bash
 ## Base Station Software Installation
 The laptop must be running Ubuntu 22.04 (Tier 1 Humble support)
 ### ROS 2 Humble installation
-See the method above on how to install ROS 2 Humble
+See the method above on how to install [ROS 2 Humble](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ros-2-humble-installation)
 ### ORB-SLAM3 installation
