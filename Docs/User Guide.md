@@ -101,3 +101,13 @@ sudo cmake --build .
 ```markdown
 sudo apt install libgtk2.0-dev libcanberra-gtk-module
 ```
+```markdown
+sudo apt install libunwind-dev
+```
+```markdown
+sudo apt -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev gfortran openexr libatlas-base-dev python3-dev python3-numpy libtbb2 libtbb-dev libopenexr-dev libgstreamer-plugins-base1.0-dev libdc1394-dev
+```
+```markdown
+
+```
+
