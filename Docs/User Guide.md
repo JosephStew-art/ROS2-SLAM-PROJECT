@@ -10,7 +10,7 @@ The installation section of the user guide has been seperated into three subsect
 5. Select Ubuntu Server 22.04 for the OS
 6. Select the SD card in the drives section of the install
 7. When prompted to enter optional configuration information select yes
-8. Ensure a WiFi networks is configured as well as a user and password
+8. Ensure a WiFi network is configured as well as a user and password
 9. Flash the SD card
 ### ROS 2 Humble installation
 1. Set locale
