@@ -107,7 +107,31 @@ sudo apt install libunwind-dev
 ```markdown
 sudo apt -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev gfortran openexr libatlas-base-dev python3-dev python3-numpy libtbb2 libtbb-dev libopenexr-dev libgstreamer-plugins-base1.0-dev libdc1394-dev
 ```
+5. Clone ORB-SLAM3
 ```markdown
-
+git clone https://github.com/JosephStew-art/ORB-SLAM3-Pi.git
+```
+6. Build ORB-SLAM3
+```markdown
+cd ORB_SLAM3
+chmod +x build.sh
+./build.sh
 ```
 
+### ORB-SLAM3 ROS 2 node installation
+1. Clone the ROS 2 ORB-SLAM3 wrapper
+```markdown
+mkdir -p colcon_ws/src
+cd ~/colcon_ws/src
+git clone https://github.com/JosephStew-art/ORB-SLAM3-ROS2-Wrapper-Pi.git
+```
+2. Install the ROS 2 package
+```markdown
+cd ~/colcon_ws
+colcon build --symlink-install --packages-select orbslam3
+```
+3. Add the source to bashrc
+Edit the .bashrc file in the root directory and add teh following line to the end of the file
+```markdown
+source ~/colcon_ws/install/local_setup.bash
+```
