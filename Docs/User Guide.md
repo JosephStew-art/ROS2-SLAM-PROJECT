@@ -56,6 +56,48 @@ source /opt/ros/humble/setup.bash
 
 ## Base Station Software Installation
 The laptop must be running Ubuntu 22.04 (Tier 1 Humble support)
+
 ### ROS 2 Humble installation
 See the method above on how to install [ROS 2 Humble](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ros-2-humble-installation)
+
 ### ORB-SLAM3 installation
+1. Install build essentials
+```markdown
+sudo apt-get install build-essentials make cmake
+```
+2. Install Eigen3
+```markdown
+sudo apt install libeigen3-dev
+```
+3. Install Pangolin 0.8
+```markdown
+wget https://github.com/stevenlovegrove/Pangolin/archive/refs/tags/v0.8.zip
+```
+```markdown
+unzip v0.8.zip
+```
+```markdown
+cd Pangolin-0.8/scripts/
+```
+```markdown
+sudo ./install_prerequisites.sh
+```
+```markdown
+cd ..
+```
+```markdown
+mkdir build
+```
+```markdown
+cd build/
+```
+```markdown
+sudo cmake ..
+```
+```markdown
+sudo cmake --build .
+```
+4. Install OpenCV dependencies
+```markdown
+sudo apt install libgtk2.0-dev libcanberra-gtk-module
+```
