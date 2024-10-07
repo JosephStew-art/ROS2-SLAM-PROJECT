@@ -3,7 +3,7 @@ The installation section of the user guide has been seperated into three subsect
 
 **Pi Installation**
 1. [Ubuntu Installation](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ubuntu-2204-server-installation)
-2. [ROS 2 Installation]()
+2. [ROS 2 Installation](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ros-2-humble-installation)
 
 **Base Station Installation**
 1. [ROS 2 Installation]()
