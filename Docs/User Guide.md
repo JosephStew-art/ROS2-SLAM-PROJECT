@@ -2,7 +2,7 @@
 The installation section of the user guide has been seperated into three subsections which is the software installation on the Raspberry Pi, the software installation on the base station (laptop) and finally the wiring diagrams/hardware integration.
 
 **Pi Installation**
-1. [Ubuntu Installation]()
+1. [Ubuntu Installation](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ubuntu-2204-server-installation)
 2. [ROS 2 Installation]()
 
 **Base Station Installation**
