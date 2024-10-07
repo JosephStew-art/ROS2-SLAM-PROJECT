@@ -178,7 +178,7 @@ cp 1403636722263555584.png 1403636722213555456.png
 ./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Monocular/EuRoC_TimeStamps/MH01.txt dataset-MH01_mono
 ```
 
-### ORB-SLAM3 simulation
+### LDSO simulation
 1. Download and unzip the dataset (see ORB-SLAM3 simulation instructions)
 2. Run the dataset
 ```markdown
