@@ -206,4 +206,19 @@ Setting up the respective SLAM frameworks to run in live SLAM environments by us
 
 ### Webcam calibration
 To be able to use a webcam with any visual-based SLAM it needs to be calibrated and its intrinsic parameters found.
-1. Run the python calibration script [Calibration Script](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ldso-simulation)
+1. Run the python calibration script [Calibration Script](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Camera%20Calibration/camera_calibration.py)
+2. Possition a 7x9 checkerboard 2-3 meters away from the camera and use the keyboard shortcuts to take the 15 pictures, be sure to change the position of the checkerboard between pictures for a thorough result.
+3. The script will print out the intrinsic parameters after the images have been captured and annotated. Copy these and replace the values in the used camera calibration yaml file ([Calibration File](https://github.com/JosephStew-art/ORB-SLAM3-ROS2-Wrapper-Pi/blob/main/config/monocular/brio.yaml)) with these new values.
+4. For the LDSO camera calibration the values need to be adjusted before they can be used for the system. The RadTan format will be used. fx, fy, cx, cy need to be adjusted before being put into the new calibration file. fx = Camera.fx / Camera.width where fx is the fx value from step 3. Do the rest for: fy = Camera.fy / Camera.height, cx = Camera.cx / Camera.width, cy = Camera.cy / Camera.height. The following: k1, k2, p1, p2 remain the same where r1 = p1 and r2 = p2. The layout is as follows:
+```markdown
+RadTan fx fy cx cy k1 k2 r1 r2
+in_width in_height
+"crop" / "full" / "fx fy cx cy 0"
+out_width out_height
+```
+For example:
+RadTan 1.1480625110012206 1.5441734314381511 0.4899086033719993 0.43901736252522903 0.016376049307530022 0.020272006835536698 -0.011690874094127815 -0.0006645146840101754
+640 480
+crop
+640 480
+```
