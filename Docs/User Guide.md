@@ -1,6 +1,8 @@
 # ROS 2 SLAM Robot User Guide
 The installation section of the user guide has been seperated into three subsections which is the software installation on the Raspberry Pi, the software installation on the base station (laptop) and finally the wiring diagrams/hardware integration.
 
+*GGG*
+
 ## Raspberry Pi Software Installation
 ### Ubuntu 22.04 Server installation
 1. Download the Raspberry Pi Imager [Raspberry Pi Software](https://www.raspberrypi.com/software/)
