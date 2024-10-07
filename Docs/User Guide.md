@@ -9,7 +9,7 @@ The installation section of the user guide has been seperated into three subsect
 1. [ROS 2 Installation](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ros-2-humble-installation-1)
 2. [ORB-SLAM3 Installation](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#orb-slam3-installation)
 3. [ROS 2 Node Installation](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#orb-slam3-ros-2-node-installation)
-4. [LDSO Installation]()
+4. [LDSO Installation](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ldso-installation)
 
 **Dataset Simulation**
 1. [ORB-SLAM3 Dataset Simulations]()
