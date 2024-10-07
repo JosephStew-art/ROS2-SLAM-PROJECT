@@ -150,3 +150,30 @@ git clone https://github.com/JosephStew-art/LDSO.git
 ```markdown
 ./make_project.sh
 ```
+
+## Dataset Simulations and Evaluations
+There are many public datasets that can be run on both of the mentioned SLAM systems, most prominent being the EuRoC, Kitti-Mono and TUM. The EuRoC dataset will be used to evaluate the performance of the systems.
+
+### ORB-SLAM3 simulation
+1. Download and unzip the dataset
+```markdown
+cd ~
+mkdir -p Datasets/EuRoc
+cd Datasets/EuRoc/
+wget -c http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/machine_hall/MH_01_easy/MH_01_easy.zip
+mkdir MH01
+unzip MH_01_easy.zip -d MH01/
+```
+2. Replace the corrupted images
+```markdown
+cd ~/Datasets/EuRoc/MH01/mav0/cam0/data
+rm 1403636689613555456.png
+cp 1403636689663555584.png 1403636689613555456.png
+rm 1403636722213555456.png
+cp 1403636722263555584.png 1403636722213555456.png
+```
+3. Go to the root ORB-SLAM3 directory
+4. Run the EuRoC dataset
+```markdown
+./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Monocular/EuRoC_TimeStamps/MH01.txt dataset-MH01_mono
+```
