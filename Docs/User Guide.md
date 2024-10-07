@@ -200,3 +200,10 @@ cp 1403636722263555584.png 1403636722213555456.png
     preset=0 \
     files=XXXX/EuRoC/MH_01_easy/mav0/cam0/
 ```
+
+## Live SLAM Using A Webcam
+Setting up the respective SLAM frameworks to run in live SLAM environments by using a webcam for a monocular video feed.
+
+### Webcam calibration
+To be able to use a webcam with any visual-based SLAM it needs to be calibrated and its intrinsic parameters found.
+1. Run the python calibration script [Calibration Script](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ldso-simulation)
