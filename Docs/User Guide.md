@@ -135,3 +135,18 @@ Edit the .bashrc file in the root directory and add teh following line to the en
 ```markdown
 source ~/colcon_ws/install/local_setup.bash
 ```
+
+### LDSO installation
+1. Clone the forked LDSO repo
+```markdown
+git clone https://github.com/JosephStew-art/LDSO.git
+```
+2. Install the dependencies
+```markdown
+./install_dependencies.sh
+```
+3. Install Pangolin (part of the ORB-SLAM3 installation)
+4. Compile the project
+```markdown
+./make_project.sh
+```
