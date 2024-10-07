@@ -177,3 +177,12 @@ cp 1403636722263555584.png 1403636722213555456.png
 ```markdown
 ./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular/EuRoC.yaml ~/Datasets/EuRoc/MH01 ./Examples/Monocular/EuRoC_TimeStamps/MH01.txt dataset-MH01_mono
 ```
+
+### ORB-SLAM3 simulation
+1. Download and unzip the dataset (see ORB-SLAM3 simulation instructions)
+2. Run the dataset
+```markdown
+./bin/run_dso_euroc \
+    preset=0 \
+    files=XXXX/EuRoC/MH_01_easy/mav0/cam0/
+```
