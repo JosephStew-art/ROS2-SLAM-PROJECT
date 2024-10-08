@@ -7,9 +7,10 @@ Converting a differential drive robot to ROS 2 and implementing SLAM with as few
 
 
 ## Dependencies
-- ORB-SLAM3
+- ORB-SLAM3-Pi (forked version of ORB-SLAM3)
 - OpenCv v4
 - ROS 2 Humble
+- ORB-SLAM3-ROS2-Wrapper (forked version of a ROS 2 wrapper for ORB-SLAM3)
 - Pangolin
 - Eigen3
 
