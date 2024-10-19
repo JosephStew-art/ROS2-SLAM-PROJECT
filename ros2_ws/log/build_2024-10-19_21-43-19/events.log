@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001636] (ros2_robot_package) JobQueued: {'identifier': 'ros2_robot_package', 'dependencies': OrderedDict()}
+[0.001770] (ros2_robot_package) JobStarted: {'identifier': 'ros2_robot_package'}
+[0.099066] (-) TimerEvent: {}
+[0.199698] (-) TimerEvent: {}
+[0.300345] (-) TimerEvent: {}
+[0.401026] (-) TimerEvent: {}
+[0.501638] (-) TimerEvent: {}
+[0.602397] (-) TimerEvent: {}
+[0.703395] (-) TimerEvent: {}
+[0.804001] (-) TimerEvent: {}
+[0.904629] (-) TimerEvent: {}
+[1.005240] (-) TimerEvent: {}
+[1.105887] (-) TimerEvent: {}
+[1.206749] (-) TimerEvent: {}
+[1.308250] (-) TimerEvent: {}
+[1.409135] (-) TimerEvent: {}
+[1.509849] (-) TimerEvent: {}
+[1.610554] (-) TimerEvent: {}
+[1.711223] (-) TimerEvent: {}
+[1.811857] (-) TimerEvent: {}
+[1.912530] (-) TimerEvent: {}
+[2.013146] (-) TimerEvent: {}
+[2.113770] (-) TimerEvent: {}
+[2.214439] (-) TimerEvent: {}
+[2.315072] (-) TimerEvent: {}
+[2.415710] (-) TimerEvent: {}
+[2.516323] (-) TimerEvent: {}
+[2.616991] (-) TimerEvent: {}
+[2.717675] (-) TimerEvent: {}
+[2.818458] (-) TimerEvent: {}
+[2.919149] (-) TimerEvent: {}
+[3.019778] (-) TimerEvent: {}
+[3.120671] (-) TimerEvent: {}
+[3.221896] (-) TimerEvent: {}
+[3.227930] (ros2_robot_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/ros2_robot_package', 'build', '--build-base', '/home/pi/ros2_ws/build/ros2_robot_package/build', 'install', '--record', '/home/pi/ros2_ws/build/ros2_robot_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/ros2_robot_package/ros2_robot_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.68.58 35422 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5713fe1c-a8f6-4d69-9e4b-267e912137ce.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/pi/.local/bin:/opt/ros/humble/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-46b5d197cc.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/ros2_ws/build/ros2_robot_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.68.58 35422 192.168.68.53 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/ros2_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.322091] (-) TimerEvent: {}
+[3.422690] (-) TimerEvent: {}
+[3.523331] (-) TimerEvent: {}
+[3.624024] (-) TimerEvent: {}
+[3.724796] (-) TimerEvent: {}
+[3.825468] (-) TimerEvent: {}
+[3.926111] (-) TimerEvent: {}
+[4.026742] (-) TimerEvent: {}
+[4.127342] (-) TimerEvent: {}
+[4.227991] (-) TimerEvent: {}
+[4.328599] (-) TimerEvent: {}
+[4.418624] (ros2_robot_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.422612] (ros2_robot_package) StdoutLine: {'line': b'creating ../../../build/ros2_robot_package/ros2_robot_package.egg-info\n'}
+[4.423496] (ros2_robot_package) StdoutLine: {'line': b'writing ../../../build/ros2_robot_package/ros2_robot_package.egg-info/PKG-INFO\n'}
+[4.424741] (ros2_robot_package) StdoutLine: {'line': b'writing dependency_links to ../../../build/ros2_robot_package/ros2_robot_package.egg-info/dependency_links.txt\n'}
+[4.425588] (ros2_robot_package) StdoutLine: {'line': b'writing entry points to ../../../build/ros2_robot_package/ros2_robot_package.egg-info/entry_points.txt\n'}
+[4.426180] (ros2_robot_package) StdoutLine: {'line': b'writing requirements to ../../../build/ros2_robot_package/ros2_robot_package.egg-info/requires.txt\n'}
+[4.426679] (ros2_robot_package) StdoutLine: {'line': b'writing top-level names to ../../../build/ros2_robot_package/ros2_robot_package.egg-info/top_level.txt\n'}
+[4.427599] (ros2_robot_package) StdoutLine: {'line': b"writing manifest file '../../../build/ros2_robot_package/ros2_robot_package.egg-info/SOURCES.txt'\n"}
+[4.428719] (-) TimerEvent: {}
+[4.435874] (ros2_robot_package) StdoutLine: {'line': b"reading manifest file '../../../build/ros2_robot_package/ros2_robot_package.egg-info/SOURCES.txt'\n"}
+[4.439838] (ros2_robot_package) StdoutLine: {'line': b"writing manifest file '../../../build/ros2_robot_package/ros2_robot_package.egg-info/SOURCES.txt'\n"}
+[4.440638] (ros2_robot_package) StdoutLine: {'line': b'running build\n'}
+[4.441290] (ros2_robot_package) StdoutLine: {'line': b'running build_py\n'}
+[4.442061] (ros2_robot_package) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/ros2_robot_package/build\n'}
+[4.442935] (ros2_robot_package) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/ros2_robot_package/build/lib\n'}
+[4.443562] (ros2_robot_package) StdoutLine: {'line': b'creating /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package\n'}
+[4.444034] (ros2_robot_package) StdoutLine: {'line': b'copying ros2_robot_package/__init__.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package\n'}
+[4.444869] (ros2_robot_package) StdoutLine: {'line': b'copying ros2_robot_package/motor_control.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package\n'}
+[4.445606] (ros2_robot_package) StdoutLine: {'line': b'copying ros2_robot_package/encoder_publisher.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package\n'}
+[4.446309] (ros2_robot_package) StdoutLine: {'line': b'copying ros2_robot_package/velocity_computation.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package\n'}
+[4.447358] (ros2_robot_package) StdoutLine: {'line': b'copying ros2_robot_package/camera_publisher.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package\n'}
+[4.449054] (ros2_robot_package) StdoutLine: {'line': b'running install\n'}
+[4.450670] (ros2_robot_package) StdoutLine: {'line': b'running install_lib\n'}
+[4.454582] (ros2_robot_package) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package\n'}
+[4.455344] (ros2_robot_package) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/__init__.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package\n'}
+[4.456166] (ros2_robot_package) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/motor_control.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package\n'}
+[4.457199] (ros2_robot_package) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/encoder_publisher.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package\n'}
+[4.458313] (ros2_robot_package) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/velocity_computation.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package\n'}
+[4.459475] (ros2_robot_package) StdoutLine: {'line': b'copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/camera_publisher.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package\n'}
+[4.463536] (ros2_robot_package) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/__init__.py to __init__.cpython-310.pyc\n'}
+[4.465340] (ros2_robot_package) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/motor_control.py to motor_control.cpython-310.pyc\n'}
+[4.472083] (ros2_robot_package) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/encoder_publisher.py to encoder_publisher.cpython-310.pyc\n'}
+[4.475292] (ros2_robot_package) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/velocity_computation.py to velocity_computation.cpython-310.pyc\n'}
+[4.478181] (ros2_robot_package) StdoutLine: {'line': b'byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/camera_publisher.py to camera_publisher.cpython-310.pyc\n'}
+[4.480207] (ros2_robot_package) StdoutLine: {'line': b'running install_data\n'}
+[4.481005] (ros2_robot_package) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/ros2_robot_package/share/ament_index\n'}
+[4.481535] (ros2_robot_package) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/ros2_robot_package/share/ament_index/resource_index\n'}
+[4.481876] (ros2_robot_package) StdoutLine: {'line': b'creating /home/pi/ros2_ws/install/ros2_robot_package/share/ament_index/resource_index/packages\n'}
+[4.482352] (ros2_robot_package) StdoutLine: {'line': b'copying resource/ros2_robot_package -> /home/pi/ros2_ws/install/ros2_robot_package/share/ament_index/resource_index/packages\n'}
+[4.482827] (ros2_robot_package) StdoutLine: {'line': b'copying package.xml -> /home/pi/ros2_ws/install/ros2_robot_package/share/ros2_robot_package\n'}
+[4.483257] (ros2_robot_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.489680] (ros2_robot_package) StdoutLine: {'line': b'Copying ../../../build/ros2_robot_package/ros2_robot_package.egg-info to /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package-0.0.0-py3.10.egg-info\n'}
+[4.494876] (ros2_robot_package) StdoutLine: {'line': b'running install_scripts\n'}
+[4.528925] (-) TimerEvent: {}
+[4.576870] (ros2_robot_package) StdoutLine: {'line': b'Installing camera_publisher script to /home/pi/ros2_ws/install/ros2_robot_package/lib/ros2_robot_package\n'}
+[4.577769] (ros2_robot_package) StdoutLine: {'line': b'Installing encoder_publisher script to /home/pi/ros2_ws/install/ros2_robot_package/lib/ros2_robot_package\n'}
+[4.578421] (ros2_robot_package) StdoutLine: {'line': b'Installing motor_control script to /home/pi/ros2_ws/install/ros2_robot_package/lib/ros2_robot_package\n'}
+[4.579024] (ros2_robot_package) StdoutLine: {'line': b'Installing velocity_computation script to /home/pi/ros2_ws/install/ros2_robot_package/lib/ros2_robot_package\n'}
+[4.580512] (ros2_robot_package) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_ws/build/ros2_robot_package/install.log'\n"}
+[4.629156] (-) TimerEvent: {}
+[4.704123] (ros2_robot_package) CommandEnded: {'returncode': 0}
+[4.729453] (-) TimerEvent: {}
+[4.777147] (ros2_robot_package) JobEnded: {'identifier': 'ros2_robot_package', 'rc': 0}
+[4.779739] (-) EventReactorShutdown: {}

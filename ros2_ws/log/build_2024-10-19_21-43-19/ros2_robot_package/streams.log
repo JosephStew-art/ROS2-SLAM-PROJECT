@@ -1,0 +1,49 @@
+[3.237s] Invoking command in '/home/pi/ros2_ws/src/ros2_robot_package/ros2_robot_package': PYTHONPATH=/home/pi/ros2_ws/build/ros2_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_robot_package build --build-base /home/pi/ros2_ws/build/ros2_robot_package/build install --record /home/pi/ros2_ws/build/ros2_robot_package/install.log --single-version-externally-managed install_data
+[4.418s] running egg_info
+[4.421s] creating ../../../build/ros2_robot_package/ros2_robot_package.egg-info
+[4.422s] writing ../../../build/ros2_robot_package/ros2_robot_package.egg-info/PKG-INFO
+[4.423s] writing dependency_links to ../../../build/ros2_robot_package/ros2_robot_package.egg-info/dependency_links.txt
+[4.424s] writing entry points to ../../../build/ros2_robot_package/ros2_robot_package.egg-info/entry_points.txt
+[4.425s] writing requirements to ../../../build/ros2_robot_package/ros2_robot_package.egg-info/requires.txt
+[4.425s] writing top-level names to ../../../build/ros2_robot_package/ros2_robot_package.egg-info/top_level.txt
+[4.426s] writing manifest file '../../../build/ros2_robot_package/ros2_robot_package.egg-info/SOURCES.txt'
+[4.434s] reading manifest file '../../../build/ros2_robot_package/ros2_robot_package.egg-info/SOURCES.txt'
+[4.438s] writing manifest file '../../../build/ros2_robot_package/ros2_robot_package.egg-info/SOURCES.txt'
+[4.439s] running build
+[4.440s] running build_py
+[4.441s] creating /home/pi/ros2_ws/build/ros2_robot_package/build
+[4.442s] creating /home/pi/ros2_ws/build/ros2_robot_package/build/lib
+[4.442s] creating /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package
+[4.443s] copying ros2_robot_package/__init__.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package
+[4.444s] copying ros2_robot_package/motor_control.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package
+[4.444s] copying ros2_robot_package/encoder_publisher.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package
+[4.445s] copying ros2_robot_package/velocity_computation.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package
+[4.446s] copying ros2_robot_package/camera_publisher.py -> /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package
+[4.448s] running install
+[4.449s] running install_lib
+[4.453s] creating /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package
+[4.454s] copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/__init__.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package
+[4.455s] copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/motor_control.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package
+[4.456s] copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/encoder_publisher.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package
+[4.457s] copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/velocity_computation.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package
+[4.458s] copying /home/pi/ros2_ws/build/ros2_robot_package/build/lib/ros2_robot_package/camera_publisher.py -> /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package
+[4.462s] byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/__init__.py to __init__.cpython-310.pyc
+[4.464s] byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/motor_control.py to motor_control.cpython-310.pyc
+[4.471s] byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/encoder_publisher.py to encoder_publisher.cpython-310.pyc
+[4.474s] byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/velocity_computation.py to velocity_computation.cpython-310.pyc
+[4.477s] byte-compiling /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package/camera_publisher.py to camera_publisher.cpython-310.pyc
+[4.479s] running install_data
+[4.480s] creating /home/pi/ros2_ws/install/ros2_robot_package/share/ament_index
+[4.480s] creating /home/pi/ros2_ws/install/ros2_robot_package/share/ament_index/resource_index
+[4.480s] creating /home/pi/ros2_ws/install/ros2_robot_package/share/ament_index/resource_index/packages
+[4.481s] copying resource/ros2_robot_package -> /home/pi/ros2_ws/install/ros2_robot_package/share/ament_index/resource_index/packages
+[4.481s] copying package.xml -> /home/pi/ros2_ws/install/ros2_robot_package/share/ros2_robot_package
+[4.482s] running install_egg_info
+[4.488s] Copying ../../../build/ros2_robot_package/ros2_robot_package.egg-info to /home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages/ros2_robot_package-0.0.0-py3.10.egg-info
+[4.493s] running install_scripts
+[4.575s] Installing camera_publisher script to /home/pi/ros2_ws/install/ros2_robot_package/lib/ros2_robot_package
+[4.576s] Installing encoder_publisher script to /home/pi/ros2_ws/install/ros2_robot_package/lib/ros2_robot_package
+[4.577s] Installing motor_control script to /home/pi/ros2_ws/install/ros2_robot_package/lib/ros2_robot_package
+[4.577s] Installing velocity_computation script to /home/pi/ros2_ws/install/ros2_robot_package/lib/ros2_robot_package
+[4.579s] writing list of installed files to '/home/pi/ros2_ws/build/ros2_robot_package/install.log'
+[4.703s] Invoked command in '/home/pi/ros2_ws/src/ros2_robot_package/ros2_robot_package' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/ros2_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/ros2_robot_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_robot_package build --build-base /home/pi/ros2_ws/build/ros2_robot_package/build install --record /home/pi/ros2_ws/build/ros2_robot_package/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+[console_scripts]
+camera_publisher = ros2_robot_package.camera_publisher:main
+encoder_publisher = ros2_robot_package.encoder_publisher:main
+motor_control = ros2_robot_package.motor_control:main
+velocity_computation = ros2_robot_package.velocity_computation:main
+
