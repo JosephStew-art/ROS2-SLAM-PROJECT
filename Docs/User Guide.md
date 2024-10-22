@@ -141,7 +141,7 @@ git clone https://github.com/JosephStew-art/ORB-SLAM3-ROS2-Wrapper-Pi.git
 ```
 2. Change to the livestream branch
 ```markdown
-git checkout branch-name
+git checkout livestream
 ```
 4. Install the ROS 2 package
 ```markdown
