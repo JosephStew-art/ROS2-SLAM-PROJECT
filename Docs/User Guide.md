@@ -1,5 +1,5 @@
 # ROS 2 SLAM Robot User Guide
-The installation section of the user guide has been seperated into three subsections which is the software installation on the Raspberry Pi, the software installation on the base station (laptop) and finally the wiring diagrams/hardware integration.
+The installation section of the user guide has been seperated into four subsections which is the software installation on the Raspberry Pi, the software installation on the base station (laptop), the wiring diagrams/hardware integration and the running of SLAM in a live environment.
 
 **Pi Installation**
 1. [Ubuntu Installation](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ubuntu-2204-server-installation)
