@@ -139,12 +139,16 @@ mkdir -p colcon_ws/src
 cd ~/colcon_ws/src
 git clone https://github.com/JosephStew-art/ORB-SLAM3-ROS2-Wrapper-Pi.git
 ```
-2. Install the ROS 2 package
+2. Change to the livestream branch
+```markdown
+git checkout branch-name
+```
+4. Install the ROS 2 package
 ```markdown
 cd ~/colcon_ws
 colcon build --symlink-install --packages-select orbslam3
 ```
-3. Add the source to bashrc
+4. Add the source to bashrc
 Edit the .bashrc file in the root directory and add teh following line to the end of the file
 ```markdown
 source ~/colcon_ws/install/local_setup.bash
