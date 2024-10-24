@@ -213,7 +213,7 @@ cp 1403636722263555584.png 1403636722213555456.png
 ```
 
 ## Component Installation and Wiring
-Consult the image of the system in the root README.md file that shows the positioning of the components. Follow the wiring diagram in x to connect the components together. 
+Consult the image of the system in the root README.md file that shows the positioning of the components. Follow the wiring diagram in [Wiring Diagram](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/Wiring%20Diagram.png) to connect the components together. 
 
 
 
