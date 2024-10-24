@@ -15,10 +15,10 @@ The installation section of the user guide has been seperated into four subsecti
 1. [ORB-SLAM3 Dataset Simulations](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#orb-slam3-simulation)
 2. [LDSO Dataset Simulations](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ldso-simulation)
 
-**Component Installation and Wiring**
+**Component Installation and Wiring**\
 [Component Installation and Wiring](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#component-installation-and-wiring)
 
-**Live SLAM**
+**Live SLAM**\
 [Live SLAM Instructions](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#live-slam-using-a-webcam)
 
 
