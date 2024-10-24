@@ -15,6 +15,12 @@ The installation section of the user guide has been seperated into four subsecti
 1. [ORB-SLAM3 Dataset Simulations](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#orb-slam3-simulation)
 2. [LDSO Dataset Simulations](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ldso-simulation)
 
+**Component Installation and Wiring**
+
+**Live SLAM**
+[Live SLAM Instructions]([https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#live-slam-using-a-webcam])
+
+
 ## Raspberry Pi Software Installation
 ### Ubuntu 22.04 Server installation
 1. Download the Raspberry Pi Imager [Raspberry Pi Software](https://www.raspberrypi.com/software/)
@@ -204,6 +210,13 @@ cp 1403636722263555584.png 1403636722213555456.png
     preset=0 \
     files=XXXX/EuRoC/MH_01_easy/mav0/cam0/
 ```
+
+## Component Installation and Wiring
+Consult the image of the system in the root README.md file that shows the positioning of the components. Follow the wiring diagram in x to connect the components together. 
+
+
+
+
 
 ## Live SLAM Using A Webcam
 Setting up the respective SLAM frameworks to run in live SLAM environments by using a webcam for a monocular video feed.
