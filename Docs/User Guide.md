@@ -239,5 +239,8 @@ ros2 launch ros2_robot_package robot_nodes.launch.py
 2. Wait for a few seconds for the Pi to initialise all the nodes
 3. Run the launch file on the base station (ensure that the workspace is courced)
 ```markdown
-ros2 launch orbslam3 
+ros2 launch orbslam3 slam_and_control.launch.py
 ```
+4. Wait for the ORB-SLAM3 vocaulary to load and all systems to initialise
+5. Control the robot via keyboard presses on the base station (w, a, s, d and x for forwards, anti-clockwise rotation, backwards, clockwise rotation and to stop respectively)
+6. To end the SLAM system click on the "stop" button on the map viewer GUI followed by ctrl + c in the base station terminal and lastly followed by ctrl + c in the Pi terminal. 
