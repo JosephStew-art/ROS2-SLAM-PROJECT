@@ -227,3 +227,17 @@ RadTan 1.1480625110012206 1.5441734314381511 0.4899086033719993 0.43901736252522
 crop
 640 480
 ```
+
+### Initialalising The Robot and Controlling It
+
+Once the camera has been calibrated the robot can be run.
+
+1. Run the launch file on the Pi (ensure that the workspace is courced)
+```markdown
+ros2 launch ros2_robot_package robot_nodes.launch.py
+```
+2. Wait for a few seconds for the Pi to initialise all the nodes
+3. Run the launch file on the base station (ensure that the workspace is courced)
+```markdown
+ros2 launch orbslam3 
+```
