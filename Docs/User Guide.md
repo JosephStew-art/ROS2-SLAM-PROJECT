@@ -16,10 +16,10 @@ The installation section of the user guide has been seperated into four subsecti
 2. [LDSO Dataset Simulations](https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#ldso-simulation)
 
 **Component Installation and Wiring**
-[Component Installation and Wiring]([https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#component-installation-and-wiring])
+1. [Component Installation and Wiring]([https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#component-installation-and-wiring])
 
 **Live SLAM**
-[Live SLAM Instructions]([https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#live-slam-using-a-webcam])
+1. [Live SLAM Instructions]([https://github.com/JosephStew-art/ROS2-SLAM-PROJECT/blob/main/Docs/User%20Guide.md#live-slam-using-a-webcam])
 
 
 ## Raspberry Pi Software Installation
